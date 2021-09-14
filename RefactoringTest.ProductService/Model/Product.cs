@@ -1,6 +1,6 @@
-namespace RefactoringTest.ProductService
+namespace RefactoringTest.ProductService.Model
 {
-    public class Product
+    public class Product: EntityBase
     {
         public string ProductName {get;set;}
         public string ProductDescription {get;set;}
